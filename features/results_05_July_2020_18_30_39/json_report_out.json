@@ -1,0 +1,115 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "RunStepsInsideAnotherSteps.feature:3",
+      "name": "Navigate to registration and register with valid info",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "RunStepsInsideAnotherSteps.feature:5",
+          "match": {
+            "arguments": [],
+            "location": "steps/step_runinsideanothersteps.py:6"
+          },
+          "name": "I go to registration page",
+          "result": {
+            "duration": 0.006201505661010742,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "RunStepsInsideAnotherSteps.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "steps/step_runinsideanothersteps.py:18"
+          },
+          "name": "I fill in the form",
+          "result": {
+            "duration": 0.0017788410186767578,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "RunStepsInsideAnotherSteps.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "steps/step_runinsideanothersteps.py:23"
+          },
+          "name": "I click on submit",
+          "result": {
+            "duration": 0.002198934555053711,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "RunStepsInsideAnotherSteps.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "steps/step_runinsideanothersteps.py:28"
+          },
+          "name": "I should get success message",
+          "result": {
+            "duration": 0.0012781620025634766,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "RunStepsInsideAnotherSteps.feature:11",
+      "name": "Registration with existing email should show correct error message",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "RunStepsInsideAnotherSteps.feature:13",
+          "match": {
+            "arguments": [],
+            "location": "steps/step_runinsideanothersteps.py:33"
+          },
+          "name": "I fill in the registration form and submit",
+          "result": {
+            "duration": 0.03233218193054199,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "RunStepsInsideAnotherSteps.feature:14",
+          "match": {
+            "arguments": [],
+            "location": "steps/step_runinsideanothersteps.py:43"
+          },
+          "name": "the error message 'User Exists Already' should be displayed",
+          "result": {
+            "duration": 0.0021758079528808594,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "RunStepsInsideAnotherSteps.feature:1",
+  "name": "Registration smoke",
+  "status": "passed",
+  "tags": []
+}
+]
